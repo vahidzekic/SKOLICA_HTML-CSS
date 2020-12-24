@@ -4,7 +4,7 @@
 
 Takozvani jezik za označavanje hiper tekstova, to jest HTML (Hyper Text Markup Language) se na prvom mestu koristi kada je potrebno kreirati određenu web stranicu uz primenu različitih editora. A u HTML editore pored Adobe Cold Fusion, spadaju i FrontPage i Dreamweaver, te Microsoft Visual Basic Developer i drugi.
 
-Trenutno je aktuelna verzija koja je označena kao HTML 4.01, a o standardizaciji se brine W3C, to jest World Wide Web Consortium.
+Trenutno je aktuelna verzija koja je označena kao HTML5, a o standardizaciji se brine W3C, to jest World Wide Web Consortium.
 
 Da bi se jasno mogla shvatiti definicija ovog pojma, najpre se mora posvetiti pažnja definisanju takozvanih hiper tekstova. U osnovi, reč je o posebnoj vrsti sadržaja koji osim konkretnih reči, svakako sadrže i sliku ili video, odnosno audio zapis. A sa tim u vezi je dobro pomenuti i da je HTML zapravo manji skup SGML - a, što je skraćenica početnih slova reči Standard General Markup Language. Inače, taj tip jezika je upravo direktno zadužen za određivanje izgleda svih stranica koje se nalaze u okviru različitih www dokumenata (World Wide Web), te se isto tako primenjuje i u onim situacijama kada je potrebno izvršiti uspostavljanje veze između dokumenata.
 
