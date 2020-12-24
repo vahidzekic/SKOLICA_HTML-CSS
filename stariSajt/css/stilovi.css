@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+
+vahid1 {
+    color: darkblue;
+    background-color: yellow;
+    font-size: 90px;
+    text-align: right;
+}
+
+
+vahid2 {
+    color: green;
+    background-color: red;
+    font-size: 50px;
+}
+
+
+
+vahid3 {
+    color: white;
+    font-size: 14px;
+}
+
+
+a:link{
+    color: white;
+    font-size: 30;
+}
+
+a:hover{
+    color: yellow;
+    font-size: 35;
+}
+
+a:active{
+    color: blueviolet;
+    font-size: 25;
+}
+
+a:visited{
+    color: black;
+    font-size: 30;
+}
+
+
+
+
+
+
