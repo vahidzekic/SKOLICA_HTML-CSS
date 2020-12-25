@@ -1,0 +1,91 @@
+body {
+    background-image: url("pozadina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: transparent;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+main {
+    background-color: transparent;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+footer {
+    background-color: transparent;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+div {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+.stil1_za_div {
+    background-color: rgba(0, 255, 255, 0.6);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.stil2_za_div {
+    background-color: rgba(255, 0, 255, 0.6);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin-left: 50px;
+    color: white;
+}
+
+
+.stil_za_footer {
+
+    text-align: center; 
+    color: white;
+}
+
+.stil_za_pomeranje {
+    margin-left: 100px;
+    color: black;
+}
+
+.stil_za_navbar {
+    color: black;
+    font-size: 30px;
+    background-image: url("dugme.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+
+a:hover {
+    background-image: url("dugme_hover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
