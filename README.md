@@ -1,4 +1,4 @@
-# SKOLICA_HTML-CSS
+# ŠKOLICA HTML-CSS
  
 
 
