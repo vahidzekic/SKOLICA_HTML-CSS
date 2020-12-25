@@ -12,7 +12,7 @@ header {
     margin-right: 300px;
 }
 
-main {
+.stil2 {
     background-color: transparent;
     margin-left: 100px;
     margin-right: 100px;
@@ -31,8 +31,9 @@ footer {
     margin-right: 200px;
 }
 
-p {
+.stil_slova {
     margin-left: 20px;
+    color: white;
 }
 
 img {
@@ -67,3 +68,11 @@ a:active {
     background-image: url("dugme.png");
     background-size: cover;
 }
+
+
+.navbar {
+    color: brown;
+    background-color: black;
+}
+
+
