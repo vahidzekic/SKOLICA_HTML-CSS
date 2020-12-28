@@ -1,0 +1,82 @@
+body.klasaBody {
+    background-image: url("pozadina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav.klasaNav {
+    color: white;
+}
+
+p.klasaPar1 {
+    color: red;
+}
+
+p.klasaPar2 {
+    color: violet;
+}
+
+p.klasaFuter {
+    color: white; 
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.klasaDiv3 {
+    background-image: url("div.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+
+div.klasaDiv1 {
+    color: black;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+
+div.klasaDiv2 {
+    color: green;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+a:link, a:visited {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    color: black;
+    background-color:rgba(255, 255, 255, 0.6);
+}
+
+
+header.nalepi {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: transparent;
+    border: 0;
+}
+
+img {
+    height: 300px;
+}
+
+img.klasaSlika {
+    height: 100px;
+}
+
+img.klasaMargine {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
