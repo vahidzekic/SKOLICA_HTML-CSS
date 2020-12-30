@@ -1,0 +1,17 @@
+body {
+    background-color: grey;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+
+div {
+    background-color: green;
+    margin-left: 200px;
+}
