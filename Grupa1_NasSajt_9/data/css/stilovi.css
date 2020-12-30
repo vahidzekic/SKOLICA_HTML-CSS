@@ -1,0 +1,55 @@
+body.pozadina {
+    background-color: grey;
+}
+
+div.pozadina {
+    background-color: white;
+}
+
+tr.pozadina {
+    background-color: green;
+    color: white;
+
+}
+
+p.donjiText {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+table.tabela, tr.tabela {
+    padding: 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: right;
+}
+
+th {
+    text-align: center;
+}
+
+table.galerija {
+    padding: 10px;
+    border: 0px;
+}
+
+img {
+    height: 70px;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
