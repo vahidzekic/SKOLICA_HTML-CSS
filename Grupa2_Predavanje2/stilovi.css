@@ -1,0 +1,46 @@
+body {
+    background-image: url("pozadina2021.jpg");
+    margin-right: 200px;
+    margin-left: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+a:link {
+    color: black;
+    background-color: white;
+    font-family: Arial;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+    background-color: blue;
+    font-size: 35px;
+}
+
+a:active {
+    background-color: rgba(169, 169, 169, 0.63);
+    font-size: 30px;
+    color: green;
+}
+
+
+div {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+
+
