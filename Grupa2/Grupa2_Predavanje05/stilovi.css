@@ -1,0 +1,74 @@
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    
+}
+
+a:active {
+    color: blue;
+}
+
+p {
+    color: black;
+}
+
+.plava { color: blue;}
+
+.crvena { color: red;}
+
+.pink { color: pink;}
+
+.dugme {
+    color: red;
+    padding: 10px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.format {
+    background-color: grey;
+}
+
+.farbanjeTeksta {
+    background-color: blue;
+    color: white;
+}
+
+.slikaPozicija {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.vecaSlova {
+    font-size: 50px;
+}
+
+
+.tabela {
+    border: black solid 2px;
+}
+
+
+.galerija {
+    border: black solid 0px;
+}
+
+
+.animacija:hover {
+    width: 400px;
+    height: 300px;
+    opacity: 0.6;
+}
