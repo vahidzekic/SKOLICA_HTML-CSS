@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.crna {
+    background-color: black;
+}
+
+.kontejner {
+    display: grid;
+    height: 100vh;
+    width:100vw;
+    grid-template: repeat(8, 100px) / repeat(8, 100px);
+}
+
+
+.kontejner2 {
+    display: grid;
+    height: 100vh;
+    width:100vw;
+    grid-template: repeat(10, 1fr) / repeat(8, 1fr);
+}
+
+.header{
+    background-color: darkcyan;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.menu {
+    background-color: gray;
+    grid-column: 1/2;
+    grid-row: 2/-1;
+
+    font-size: 30px;
+    color: white;
+    text-align: center;
+
+}
+
+.content {
+    background-color: yellow;
+    grid-column: 2/-1;
+    grid-row: 2/-1;
+
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    background-color: darkgreen;
+    grid-column: 1/-1;
+    grid-row: -1 / -1;
+
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
