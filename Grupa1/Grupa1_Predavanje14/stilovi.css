@@ -1,0 +1,91 @@
+body, html {
+    margin: 0;
+    height: 100vh;
+}
+
+
+.kontejner {
+    height: 100%;
+    display: grid;
+
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, 4);
+
+    grid-template-areas: 
+        "zaglavlje"
+        "navigacija"
+        "sadrzaj"
+        "podnozije";
+
+}
+
+.zaglavlje {
+    background-color: blue;
+    grid-area: zaglavlje;
+}
+
+.navigacija {
+    background-color: green;
+    grid-area: navigacija;
+}
+
+.sadrzaj {
+    background-color: yellow;
+    grid-area: sadrzaj;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+    grid-template-areas: 
+        "levi srednji desni reklama"
+        "levi srednji desni reklama"
+        "levi srednji desni reklama"
+        "levi srednji desni reklama";
+}
+
+.podnozije {
+    background-color: red;
+    grid-area: podnozije;
+}
+
+
+@media only screen and (min-width: 500px) {
+
+.kontejner {
+    height: 100%;
+    display: grid;
+
+    grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+
+    grid-template-areas: 
+        "zaglavlje zaglavlje zaglavlje zaglavlje"
+        "navigacija sadrzaj sadrzaj sadrzaj"
+        "navigacija sadrzaj sadrzaj sadrzaj"
+        "navigacija sadrzaj sadrzaj sadrzaj"
+        "navigacija sadrzaj sadrzaj sadrzaj"
+        "podnozije podnozije podnozije podnozije";
+
+}
+}
+
+
+.levi {
+    background-color: brown;
+    grid-area: levi;
+}
+
+.srednji {
+    background-color: black;
+    grid-area: srednji;
+}
+
+.desni {
+    background-color: grey;
+    grid-area: desni;
+}
+
+.reklama {
+    background-color: white;
+    grid-area: reklama;
+}
