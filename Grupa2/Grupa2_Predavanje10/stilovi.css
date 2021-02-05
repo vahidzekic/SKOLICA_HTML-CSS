@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    height: 100vh;
+}
+
+body {
+    background-image: url("pozadina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.kontejner {
+    display: grid;
+    height: 100%;
+    grid-template: repeat(5, 1fr) / 1fr 4fr 1fr;
+    grid-template-areas: 
+        "zag zag zag"
+        "nav sad rek"
+        "nav sad rek"
+        "nav sad rek"
+        "pod pod pod";
+}
+
+.zaglavlje {
+    background-color: blue;
+    grid-area: zag;
+}
+
+.navigacija {
+    background-color: green;
+    grid-area: nav;
+}
+
+
+.sadrzaj {
+    background-color: yellow;
+    grid-area: sad;
+
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+    grid-template-areas: 
+        "levo1 desno1"
+        "levo1 desno1"
+        "levo2 desno2"
+        "levo2 desno2";
+}
+
+.reklama {
+    background-color: purple;
+    grid-area: rek;
+}
+
+.podnozje {
+    background-color: red;
+    grid-area: pod;
+}
+
+
+@media only screen and (max-width: 375px) {
+
+
+    .kontejner {
+        display: grid;
+        height: 100%;
+        grid-template: repeat(7, auto) / 100%;
+        grid-template-areas: 
+            "zag"
+            "nav"
+            "sad"
+            "sad"
+            "sad"
+            "rek"
+            "pod";
+    }
+
+
+    .sadrzaj {
+        background-color: yellow;
+        grid-area: sad;
+    
+        display: grid;
+        grid-template: repeat(4, auto) / 100%;
+        grid-template-areas: 
+            "levo1"
+            "desno1"
+            "levo2"
+            "desno2";
+    }
+
+
+
+
+}
+
+.levo1 {
+    background-color: cyan;
+    grid-area: levo1;
+}
+
+.levo2 {
+    background-color: violet;
+    grid-area: levo2;
+}
+
+
+.desno1 {
+    background-color: yellowgreen;
+    grid-area: desno1;
+}
+
+.desno2 {
+    background-color: white;
+    grid-area: desno2;
+}
