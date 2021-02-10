@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    /* padding: 0; */
+}
+
+html body {
+    height: 100vh;
+}
+
+.kontejner {}
+
+
+.zaglavlje {}
+
+.navigacija {
+    background-color: grey;
+    opacity: 0.8;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.navigacija ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigacija ul li {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navigacija ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.aktivan, .navigacija ul li:hover {
+    box-shadow: 5px 5px 15px black;
+    border-radius: 10px;
+}
+
+.navigacija-padajuca {
+    display: none;
+}
+
+.navigacija ul li:hover .navigacija-padajuca {
+    display: block;
+    position: absolute;
+    background-color: grey;
+    text-align: left;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+}
+
+.navigacija ul li:hover .navigacija-padajuca ul {
+    display: block;
+    padding: 20px;
+} 
+
+.navigacija-padajuca2 {
+    display: none;
+}
+
+.preko-dugmeta:hover .navigacija-padajuca2 {
+    display: block;
+    position: absolute;
+    background-color: grey;
+    text-align: left;
+    margin-left: 150px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+}
+
+.sadrzaj {}
+
+.podnozje {}
