@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    height: 100vh;
+}
+
+.kontejner {
+    display: grid;
+    height: 100%;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    grid-template-areas: 
+        "zag zag zag zag"
+        "nav sad sad sad"
+        "nav sad sad sad"
+        "pod pod pod pod";
+}
+
+.zaglavlje {
+    background-color: green;
+    grid-area: zag;
+}
+
+.navigacija {
+    background-color: blue;
+    grid-area: nav;
+}
+
+.sadrzaj {
+    background-color: yellow;
+    grid-area: sad;
+}
+
+.podnozje {
+    background-color: red;
+    grid-area: pod;
+}
