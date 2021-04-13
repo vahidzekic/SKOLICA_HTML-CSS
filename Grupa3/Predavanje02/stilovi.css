@@ -1,0 +1,74 @@
+body {
+    background-color: grey;
+}
+
+
+
+.crvenaBoja {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.plavaBoja {
+    color: blue;
+    font-size: 24px;
+}
+
+.zelenaBoja {
+    color: green;
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+.zaglavlje {
+    background-color: white;
+}
+
+.navigacija {
+    background-color: white;
+    margin: 5px;
+}
+
+.sadrzajPocetna {
+    background-color: white;
+    color: blue;
+}
+
+.sadrzajOnama {
+    background-color: yellow;
+    color: green;
+}
+
+.sadrzajKontakt {
+    background-color: blue;
+    color: red;
+}
+
+.podnozje {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 130px;
+    padding: 100px;
+}
+
+.loginForma {
+    background-color: green;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: right;
+    margin: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px black;
+}
+
+
+.mojaKlasa {
+    font-size: 50px;
+    color: red;
+}
